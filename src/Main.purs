@@ -2,7 +2,7 @@ module Main where
 
 import Prelude
 
-import Data.SimplePath (Path(..), edge, node, toGram, toPath, toXML)
+import Data.Path (Path(..), edge, node, toGram, toPath, toXML)
 import Effect (Effect)
 import Effect.Console (log)
 
